@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php $testoVariabile=$_GET["testo"];
-    echo $testoVariabile;
+    $parola=$_GET["censura"];
+    echo $testoVariabile . $parola;
     echo strlen ($testoVariabile);
+    echo str_replace ($parola, '***', $testoVariabile );
     
     ?>
 </body>

@@ -10,8 +10,8 @@ echo 'ciao mi chiamo'
 </head>
 <body>
     <form action="censura.php" method="GET">
-        <input type="text" name="testo">
-        <input type="text" name="censura">
+        <input type="text" name="testo" placeholder=" testo da inserire">
+        <input type="text" name="censura" placeholder="parola non desiderata">
         <input type="submit" value="clicca qui">
         
 
