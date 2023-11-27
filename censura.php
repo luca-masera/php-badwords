@@ -9,6 +9,8 @@
 <body>
     <?php $testoVariabile=$_GET["testo"];
     echo $testoVariabile;
+    echo strlen ($testoVariabile);
+    
     ?>
 </body>
 </html>

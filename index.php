@@ -11,7 +11,9 @@ echo 'ciao mi chiamo'
 <body>
     <form action="censura.php" method="GET">
         <input type="text" name="testo">
+        <input type="text" name="censura">
         <input type="submit" value="clicca qui">
+        
 
     </form>
 </body>
